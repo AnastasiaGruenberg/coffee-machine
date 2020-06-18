@@ -10,9 +10,9 @@
   cursor: pointer;
 }
 .coffee-item img {
-  height: 100px;
+  height: 75px;
   background-color: white;
-  border-radius: 50%;
+  border-radius: calc(75px / 2);
 }
 .coffee-item:hover {
   background-color: rgba(50, 50, 50, 0.7);
@@ -33,4 +33,12 @@
 }
 .cup img {
   width: 100%;
+}
+.atm img {
+  width: 100%;
+}
+.change-box {
+  background-color: gray;
+  border: 2px solid black;
+  min-height: 100px;
 }
